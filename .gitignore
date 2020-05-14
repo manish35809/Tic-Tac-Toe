@@ -9,6 +9,8 @@ npm-debug.*
 *.orig.*
 web-build/
 web-report/
+TicTacToe.jks
+credentials.txt
 
 # macOS
 .DS_Store

@@ -1,11 +1,10 @@
 {
   "expo": {
-    "name": "TicTacToe",
+    "name": "Tic-Tac-Toe",
     "slug": "TicTacToe",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,7 +12,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#afb0b2"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,7 +21,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "in.tech2code.manish",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "in.tech2code.manish",
+      "versionCode": 1
     }
   }
 }
